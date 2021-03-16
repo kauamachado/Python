@@ -1,0 +1,10 @@
+ordem de precedencia: 
+1: Parenteses: ()
+2: exponenciacao: **
+3: *,/,//, %
+4: +, -
+
+
+primeiro resolver os parenteses, depois a exponenciação, terceiro sao
+as multiplicações, divisoes, divisoes inteiras e resto de divisao, por fim se
+calcula a soma ou subtracação

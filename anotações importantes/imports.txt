@@ -1,0 +1,2 @@
+import biblioteca ( vai importar todos os livros)
+from biblioteca imorte livro2(vai importar apenas o livro chamado

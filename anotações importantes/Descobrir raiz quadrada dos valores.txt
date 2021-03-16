@@ -1,0 +1,1 @@
+Para se descobrir a raiz quadrada de algum valor, tem que exponencia-lo (**) e dividir  por (1/2)
