@@ -1,0 +1,27 @@
+Análise da frase: 
+len(frase)
+in
+find
+count
+
+replace: trocar, reposicionar: Vai procurar a palavra da 1 variavel ,e substituir pela segunda
+ele nao substitui na string
+
+
+frase.upper()(uppper, lower)
+
+capitalize: vai jogar todos os caracteres pra minusculos, exceto a 1 letra
+
+title: vai analisar quantas palavras tem na string,   transformando todas as 1 letras de todas as palavras em maiusculo
+
+strip: remove todos os espacos inuteis, de antes e depois da palavrqa(exceto os espaços que estao no meio
+
+rstrip: remove todos os espaços existentes na direita
+
+lstrip: remove todos os espaços existentes na esquerda
+
+split: cria uma divisao onde tem espaços
+join: juntar todos os elementos da frase
+
+
+
