@@ -8,3 +8,4 @@ if s > v3:
     print('Os valores podem sim formar um triangulo.')
 else:
     print('Os valores nao podem formar um triangulo')
+

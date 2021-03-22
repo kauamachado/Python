@@ -1,0 +1,4 @@
+Condições alinhadas sao colocar estruturas condicionais dentro de estruturas condicionais
+if
+elif
+else

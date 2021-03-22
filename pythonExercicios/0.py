@@ -1,6 +1,6 @@
-n='José'
-i=25
+num = int(input('Digite um numero: '))
+resul = num % 2
 
-n = 19 //2
-q = 19 % 2
-print(n,q)
+print(resul)
+
+
