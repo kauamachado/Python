@@ -1,16 +1,16 @@
 import random
 from time import sleep
+tentativa = 3
+sorteado = random.randint(0, 5)
 
-al = random.randint(0, 5)
-
-user = int(input('Digite o número que você acha que o computador sorteou: '))
+user = int(input('Digite o número que o computador sorteou: '))
 
 if user > 5 or user < 0:
     print('Digite um número válido!')
     exit()
 print('PROCESSANDO....')
 sleep(3)
-if al == user:
-    print('Número sorteado:{}\nVocê venceu!'.format(al))
+if sorteado == user:
+    print('Número sorteado:{}\nVocê venceu!'.format(sorteado))
 else:
-    print('Número sorteado: {}\nVocê perdeu'.format(al))
+    print('Número sorteado: {}\nComputador venceu!'.format(sorteado))
