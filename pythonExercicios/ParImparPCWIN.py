@@ -1,4 +1,5 @@
 from random import randint
+
 print('-=' * 20)
 print('VAMOS JOGAR PAR OU ÍMPAR')
 print('-=' * 20)
@@ -13,9 +14,9 @@ while True:
     print(f'Você jogou {jogador} e o computador jogou {pc}, o total foi {total}', end='')
     print('  Deu par' if total % 2 == 0 else '  Deu impar')
     if opc in 'p':
-        if total %2 == 0:
+        if total % 2 == 0:
             print('Você ganhou! Vamos seguir')
-            v+=1
+            v += 1
         else:
             print('Você perdeu. ')
             break

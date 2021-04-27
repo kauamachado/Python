@@ -1,8 +1,8 @@
-cont = 0
-num = int(input('Tabuada de: '))
-s = num * cont
-while num >= 0:
-    cont += 1
-    while cont < 11:
-        print(f'{num} * {cont} = {num * cont}')
+while True:
+    n = int(input('Tabuada: '))
+    if n < 0:
         break
+    print('-' *30)
+    for c in range(1, 11):
+        print(f'{n} x {c}: {n*c}')
+    print('-' * 30)

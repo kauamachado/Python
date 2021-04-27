@@ -1,10 +1,8 @@
-s = 0
-cont = 0
-num = int(input('Digite um número: [999 para parar]'))
+soma = cont =0
 while True:
-    cont += 1
-    s += num
-    num = int(input('Digite um número: [999 para parar]'))
+    num = int(input('Digite um número (999 pra parar): '))
     if num == 999:
-        print(f'A soma dos {cont} valores foi {s}!')
         break
+    cont += 1
+    soma += num
+print(f'A soma dos {cont} valores foi {soma}!')
