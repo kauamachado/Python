@@ -1,4 +1,4 @@
-palavras = ('Jogar', 'Dormir', 'Comer', 'Correr', 'Sair', 'Beber', 'mijar')
+palavras = ('Jogar', 'Dormir', 'Comer', 'Correr', 'Sair', 'Beber')
 
 for p in palavras:
     print(f'\nNa palavra {p.upper()} temos ', end='')
