@@ -1,0 +1,28 @@
+Variaveis compostas - Tuplas
+No python existe tres tipos de variaveis compostas: as tuplas, as listas e os dicionarios
+Como o nome diz, uma tupla é uma variavel que guarda varios valores
+Mas..como acessar?
+Esses elementos sao identificados por indices. 
+AS TUPLAS SÃO IMUTÁVEIS
+Duas formas de mostrar posicao
+
+for cont in range(0, lanche):
+	print(f'Eu vou comer{lanche[cont]} na posicao{cont}
+
+OU
+
+for pos, comida in enumerate(lanche):
+	print(f'Eu vou comer {comida} na posicao {pos}')
+
+CASO NAO PRECISE MOSTRAR POSIÇÃO
+for comida in lanche:
+	print(f'Eu vou comer {comida})
+
+Para organizar usa-se sorted..ex:
+print(sorte(lanche))
+
+c.index(8)
+vai mostrar a posicao do valor digitado
+
+del(var) - apaga a variavel da memoria
+
